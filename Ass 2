@@ -1,0 +1,27 @@
+//difference between odd sum and even sum
+
+#include<stdio.h>
+
+main()
+
+{
+
+	int n,i,even=0,odd=0;	scanf("%d",&n);
+
+	for(i=1;i<=n+n;i++)
+
+	if(i%2==0)
+
+	even=even+i;
+
+	else
+
+	odd=odd+i;
+
+	printf("even sum : %d\n",even);
+
+	printf("odd sum : %d\n",odd);
+
+	printf("difference between odd sum and even sum is %d",even-odd);
+
+}
